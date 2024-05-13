@@ -14,3 +14,12 @@ const employees = [
 let alex;
 let alexHobbies;
 let alexAndJamesAge;
+
+alex = employees[1].name;
+console.log(alex);
+
+alexHobbies = employees[1].hobbies;
+console.log(alexHobbies);
+
+alexAndJamesAge = employees[0].age + employees[1].age;
+console.log(alexAndJamesAge);

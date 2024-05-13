@@ -43,6 +43,20 @@ let orders = [
 
 // Start coding here
 let isArray;
+console.log(Array.isArray(orders));
 let creditCardTypeOfBlindermann;
+creditCardTypeOfBlindermann = orders[2].creditCardType;
+console.log(creditCardTypeOfBlindermann);
+
+orders[2].creditCardType = "visa";
+console.log(orders[2]);
+
 let productQuantityOfJoannet;
+productQuantityOfJoannet = orders[3].productQuantity;
+console.log(productQuantityOfJoannet);
 let totalPurchaseOfDary;
+totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
+console.log(totalPurchaseOfDary);
+
+orders.shift();
+console.log(orders);
